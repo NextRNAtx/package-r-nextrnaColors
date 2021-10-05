@@ -4,7 +4,7 @@ nextrna_colors <- c(
   `orange`      = "#F69126",
   `teal`       = "#0d8273",
   `blue`     = "#0656c2",
-  `red`     = "#800109",
+  `red`     = "#b3040c",
   `yellow` = "#ffc425",
   `pink`  = "#d60d89")
 
