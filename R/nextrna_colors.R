@@ -1,12 +1,12 @@
 #' selected nextrna-themed colors
 nextrna_colors <- c(
-  `purple`        = "#662F8E",
-  `orange`      = "#F69126",
-  `teal`       = "#0d8273",
-  `blue`     = "#0656c2",
-  `red`     = "#b3040c",
+  `purple` = "#662F8E",
+  `orange` = "#F69126",
+  `teal` = "#0d8273",
+  `blue` = "#0656c2",
+  `red` = "#b3040c",
   `yellow` = "#ffc425",
-  `pink`  = "#d60d89")
+  `pink` = "#d60d89")
 
 #' Function to extract nextrna colors as hex codes
 #'
