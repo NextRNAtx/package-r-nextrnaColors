@@ -1,6 +1,6 @@
 # package-nextrnaColors
 
-Limited package to enable easy plotting of data using ggplot2 and NextRNA corporate colors.
+Limited package to enable easy plotting of data using ggplot2 and NextRNA corporate colors. Code from [here](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2)
 
 Colors:
 - ![#662F8E](https://via.placeholder.com/15/662F8E/000000?text=+)   purple  #662F8E
