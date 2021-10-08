@@ -1,4 +1,4 @@
-# package-nextrnaColors
+# package-r-nextrnaColors
 
 Limited package to enable easy plotting of data using ggplot2 and NextRNA corporate colors. Code from [here.](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2)
 
