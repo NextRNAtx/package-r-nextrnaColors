@@ -11,17 +11,18 @@ Colors:
 - ![#ffc425](https://via.placeholder.com/15/ffc425/000000?text=+)   yellow  #ffc425
 - ![#d60d89](https://via.placeholder.com/15/d60d89/000000?text=+)   pink    #d60d89
 
-Usage examples: 
+Main functions: scale_color_nextrna() and scale_fill_nextrna()
 
+Usage examples: 
 ```
 ggplot(data = lin28_df, aes(x = exp, y = estimate, label = primary_diagnosis)) + 
-  geom_point(aes(color = version), alpha = .8) + **scale_color_nextrna()**
+  geom_point(aes(color = version), alpha = .8) + scale_color_nextrna()
           
 ggplot(data = lin28reg, aes(label = primary_diagnosis)) +
  geom_col(aes(x = as.character(mirna_id), y = estimate, fill = csd_status)) +
- **scale_fill_nextrna()** 
+ scale_fill_nextrna()
 
 # need discrete = F to create continuous color scale for heatmap
 ggplot(cor_df, aes(x = let_version, y = primary_diagnosis, label = p.value)) + geom_raster(aes(fill = estimate)) +
-        **scale_fill_nextrna(discrete = F)**
+        scale_fill_nextrna(discrete = F)
 ```
