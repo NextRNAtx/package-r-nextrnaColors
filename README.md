@@ -12,7 +12,7 @@ Limited package to enable easy plotting of data using ggplot2 and NextRNA corpor
 - ![#d60d89](https://via.placeholder.com/15/d60d89/000000?text=+)   pink    #d60d89
 
 ### Main functions: 
-scale_color_nextrna() and scale_fill_nextrna()
+`scale_color_nextrna()` and `scale_fill_nextrna()`
 
 ### Usage examples: 
 ```
