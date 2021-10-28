@@ -24,6 +24,6 @@ ggplot(data = lin28reg, aes(label = primary_diagnosis)) +
  scale_fill_nextrna()
 
 # need discrete = F to create continuous color scale for heatmap
-ggplot(cor_df, aes(x = let_version, y = primary_diagnosis, label = p.value)) + geom_raster(aes(fill = estimate)) +
-        scale_fill_nextrna(discrete = F)
+ggplot(cor_df, aes(x = let_version, y = primary_diagnosis, label = p.value)) + 
+  geom_raster(aes(fill = estimate)) + scale_fill_nextrna(discrete = F)
 ```
