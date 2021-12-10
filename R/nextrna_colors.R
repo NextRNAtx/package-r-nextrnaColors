@@ -23,7 +23,7 @@ nextrna_cols <- function(...) {
 
 #' possible nextrna color palettes
 nextrna_palettes <- list(
-  `main`  = nextrna_cols("purple", "orange", "teal"),
+  `main`  = nextrna_cols("purple", "teal", "orange"),
   `cool`  = nextrna_cols("purple", "teal", "blue"),
   `hot`   = nextrna_cols("yellow", "orange", "red"),
   `mixed` = nextrna_cols("purple", "teal", "yellow", "orange", "red")
