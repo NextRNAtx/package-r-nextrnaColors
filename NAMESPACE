@@ -1,2 +1,3 @@
-import(ggplot2)
+import(ggplot2,ggprism,rlang,tibble)
+importFrom("grDevices", "colorRampPalette")
 exportPattern("^[[:alpha:]]+")
